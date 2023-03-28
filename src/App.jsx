@@ -6,7 +6,7 @@ import Header from "./components/Header";
 function App() {
   return (
     <Provider store={store}>
-      <div className="bg-gray-100 min-h-screen no-scrollbar">
+      <div className="bg-gray-100 min-h-screen">
         <Header />
         <Outlet />
       </div>
