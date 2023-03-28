@@ -3,6 +3,7 @@ import App from "./App";
 import Error from "./components/Error";
 import Homepage from "./components/Homepage";
 import Products from "./components/Products";
+import ProductDetails from "./components/ProductDetails";
 
 export const appRouter = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ export const appRouter = createBrowserRouter([
       {
         path: "/products",
         element: <Products />,
+      },
+      {
+        path: "/products/:id",
+        element: <ProductDetails />,
       },
     ],
   },

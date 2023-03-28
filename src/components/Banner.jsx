@@ -19,7 +19,7 @@ const Banner = () => {
           <picture>
             <source
               media="(max-width:640px)"
-              srcset="https://m.media-amazon.com/images/G/31/img22/Feb/Coop/Daawat._CB615167090_.jpg"
+              srcSet="https://m.media-amazon.com/images/G/31/img22/Feb/Coop/Daawat._CB615167090_.jpg"
             />
             <img
               loading="lazy"
@@ -32,11 +32,11 @@ const Banner = () => {
           <picture>
             <source
               media="(max-width:640px)"
-              srcset="https://m.media-amazon.com/images/I/71V--WZVUIL._AC_UL320_.jpg"
+              srcSet="https://m.media-amazon.com/images/I/71V--WZVUIL._AC_UL320_.jpg"
             />
             <img
               loading="lazy"
-              src="https://m.media-amazon.com/images/I/61tk4B-Bx+L._SX3000_.jpg"
+              src="https://m.media-amazon.com/images/I/716juDVXF5L._SX3000_.jpg"
               alt="alexa-ad"
             />
           </picture>
@@ -45,11 +45,11 @@ const Banner = () => {
           <picture>
             <source
               media="(max-width:640px)"
-              srcset="https://m.media-amazon.com/images/I/81c+9BOQNWL._AC_UL320_.jpg"
+              srcSet="https://m.media-amazon.com/images/I/81c+9BOQNWL._AC_UL320_.jpg"
             />
             <img
               loading="lazy"
-              src="https://m.media-amazon.com/images/I/61tk4B-Bx+L._SX3000_.jpg"
+              src="https://m.media-amazon.com/images/I/61p6tb5x6AL._SX3000_.jpg"
               alt="alexa-ad"
             />
           </picture>

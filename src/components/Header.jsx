@@ -3,7 +3,7 @@ import Logo from "../assets/betterdata_logo.png";
 
 const Header = () => {
   return (
-    <header className="px-8 py-3 border border-red-400 flex flex-col shadow-md gap-2 justify-between w-full items-center flex-wrap md:flex-row">
+    <header className="px-8 py-3 flex flex-col shadow-md gap-2 justify-between w-full items-center flex-wrap md:flex-row">
       <div className="w-24">
         <a href="/" className="hidden md:flex">
           <img src={Logo} alt="logo" className="w-full" />
