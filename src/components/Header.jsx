@@ -6,7 +6,7 @@ const Header = () => {
     <header className="px-8 py-3 flex flex-col shadow-md gap-2 justify-between w-full items-center flex-wrap md:flex-row">
       <div className="w-24">
         <a href="/" className="hidden md:flex">
-          <img src={Logo} alt="logo" className="w-full" />
+          <img src={Logo} alt="logo" className="w-full" data-testid="logo" />
         </a>
       </div>
       <input
@@ -17,7 +17,12 @@ const Header = () => {
       <nav className="px-4">
         <ul className="flex items-center gap-2">
           <Link to="/">
-            <li className="px-2 text-purple-400 font-semibold">Home</li>
+            <li
+              className="px-2 text-purple-400 font-semibold"
+              data-testid="home-link"
+            >
+              Home
+            </li>
           </Link>
           <Link to="/products">
             <li className="px-2 text-purple-400 font-semibold">Products</li>
