@@ -2,6 +2,10 @@
 
 It's an e-commerce application which displays various products.
 
+## Preview
+
+https://user-images.githubusercontent.com/72139503/228879023-017b0653-ee58-4f74-9708-3025ee71a8f7.mp4
+
 ## Tech Stack
 
 **Client** - ReactJS, Redux Toolkit, TailwindCSS
