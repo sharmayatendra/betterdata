@@ -21,7 +21,10 @@ const Products = () => {
     dispatch(fetchAllProducts());
   }, []);
   return (
-    <section className="flex flex-col m-4 items-center gap-8 sm:flex-row sm:items-stretch">
+    <section
+      className="flex flex-col m-4 items-center gap-8 sm:flex-row sm:items-stretch"
+      data-testid="prod-section"
+    >
       <Sidebar />
       <main className="flex flex-wrap items-stretch justify-center gap-10">
         {isLoading &&

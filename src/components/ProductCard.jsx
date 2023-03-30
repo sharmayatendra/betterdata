@@ -1,6 +1,9 @@
 const ProductCard = ({ title, image, description, price }) => {
   return (
-    <div className="shadow-sm rounded-md border border-gray-300 p-4 min-w-[10rem] max-w-[15rem] h-full flex flex-col gap-4">
+    <div
+      className="shadow-sm rounded-md border border-gray-300 p-4 min-w-[10rem] max-w-[15rem] h-full flex flex-col gap-4"
+      data-testid="product"
+    >
       <div className="w-24 m-auto">
         <img src={image} alt="bag" className="w-full" />
       </div>

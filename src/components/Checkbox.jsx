@@ -19,6 +19,7 @@ const Checkbox = ({ category }) => {
         id={category}
         checked={isChecked}
         onChange={handleChange}
+        data-testid="check"
       />
       <label htmlFor={category} className="ml-2 text-sm cursor-pointer">
         {category}

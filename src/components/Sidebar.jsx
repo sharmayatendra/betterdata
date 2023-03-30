@@ -13,7 +13,7 @@ const Sidebar = () => {
   }, []);
 
   return (
-    <aside className="shadow-md rounded-md border border-gray-300 min-w-[12rem] sm:flex flex-col min-h-full p-4">
+    <aside className="shadow-md rounded-md border border-gray-300 min-w-[12rem] sm:flex flex-col min-h-full p-4" data-testid="sidebar">
       <h1 className="text-xl font-semibold">Categories</h1>
       <ul className="p-2">
         {categories.length > 0 &&

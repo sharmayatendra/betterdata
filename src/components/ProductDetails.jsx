@@ -11,7 +11,10 @@ const ProductDetails = () => {
   return (
     <>
       {description ? (
-        <div className="flex flex-col items-stretch py-8 gap-8 md:gap-36 mt-4 sm:flex-row px-8">
+        <div
+          className="flex flex-col items-stretch py-8 gap-8 md:gap-36 mt-4 sm:flex-row px-8"
+          data-testid="details"
+        >
           <div className="min-w-[10rem] max-w-[20rem] m-auto sm:m-0">
             <img src={image} alt="product-img" className="w-full" />
           </div>

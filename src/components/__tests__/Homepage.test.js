@@ -4,8 +4,7 @@ import { StaticRouter } from "react-router-dom/server";
 import { Provider } from "react-redux";
 import { store } from "../../app/store";
 
-test("on click of browse more button it should go to product listing page", () => {
-  // load Homepage:
+test("browse more button should be present on rendering homepage", () => {
   const homePage = render(
     <StaticRouter>
       <Provider store={store}>
@@ -13,5 +12,7 @@ test("on click of browse more button it should go to product listing page", () =
       </Provider>
     </StaticRouter>
   );
-  console.log(homePage);
+  const browseBtn = homePage.getByTestId("browse-btn");
+
+  expect(browseBtn.innerHTML).toBe("Browse More Products");
 });
