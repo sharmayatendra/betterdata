@@ -36,14 +36,20 @@ Go to the project directory
 Install dependencies
 
 ```bash
-    npm install
+  npm install
 ```
 
 Start the server
 
 ```bash
-    npm run dev
+  npm run dev
 ```
+To run tests
+
+```bash
+  npm run test
+```
+
 
 ## 🔗 Connect With Me
 
